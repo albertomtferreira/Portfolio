@@ -19,74 +19,84 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Portfolio",
+    description: "New Portflofio Page",
+    date: "2024-06-10",
+    demoLink: "https://albertomtferreira.github.io/Portfolio/",
+    repository: "https://github.com/albertomtferreira/Portfolio"
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "Online Store",
+    description: "Clothing web store demo. Hosted on Netlify. (PWA)",
+    date: "2024-01-30",
+    demoLink: "https://creative-yeot-f79f03.netlify.app/",
+    repository: "https://github.com/albertomtferreira/my-store"
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Old Portfolio",
+    description: "Old Portfolio Page",
+    date: "2024-02-25",
+    demoLink: "https://albertomtferreira.github.io/",
+    repository: "https://github.com/albertomtferreira/albertomtferreira.github.io"
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    name: "Bread Mate - New Updates Soon!",
+    description: "Page to promote baking hobby. Hosted on Netlify.",
+    date: "2024-06-10",
+    demoLink: "https://breadmate.netlify.app/",
+    repository: "https://github.com/albertomtferreira/bread-mate"
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "Monsters Deploy",
+    description: "Updated version of Robofriends! (PWA)",
+    date: "2024-01-26",
+    demoLink: "https://albertomtferreira.github.io/my-monsters-deploy/",
+    repository: "https://github.com/albertomtferreira/my-monsters-deploy"
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    name: "Tao Reiki - New Updates Soon!",
+    description: "Page to promote Reiki hobby. Hosted on Netlify. org domain",
+    date: "2024-03-10",
+    demoLink: "https://taoreiki.org/",
+    repository: "https://github.com/albertomtferreira/tao-reiki"
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
+    name: "Robofriends",
+    description: "",
+    date: "2023-11-18",
+    demoLink: "https://albertomtferreira.github.io/my-robofriends/",
+    repository: "https://github.com/albertomtferreira/my-robofriends"
   },
   {
     id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
+    name: "React Projects",
+    description: "Page with couple of small React Projects",
+    date: "2024-02-25",
+    demoLink: "https://albertomtferreira.github.io/reactjs-projects/",
+    repository: "https://github.com/albertomtferreira/reactjs-projects"
   },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-  },
+  // {
+  //   id: 9,
+  //   name: "",
+  //   description: "",
+  //   date: "",
+  //   demoLink: "",
+  //   repository: ""
+  // },
+  // {
+  //   id: 10,
+  //   name: "",
+  //   description: "",
+  //   date: "",
+  //   demoLink: "",
+  //   repository: ""
+  // },
 ];
 
 export const BtnList = [
