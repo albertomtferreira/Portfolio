@@ -17,12 +17,11 @@ export default function Contact() {
       <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
           <h1 className="text-accent font-semibold text-center text-4xl capitalize">
-            Summon the Wiz
+            Get in touch!
           </h1>
           <p className="text-center font-align text-sm">
-          Step into the circle of enchantment and weave your words into the fabric of the cosmos. 
-          Whether you seek to conjure collaborations, unlock mysteries, or simply share tales of adventure, your messages are treasured scrolls within this realm. 
-          Use the form below to send your missives through the ethereal network, and await the whisper of magic in response.
+            Use the power of technology to get in touch. Fill out the form and I will get back to you as soon as possible.
+
           </p>
 
         </div>

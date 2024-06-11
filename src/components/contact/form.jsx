@@ -138,7 +138,7 @@ export default function Form() {
         {/* SUBMIT BUTTON */}
         <motion.input
           variants={item}
-          value="Cast Your Message!"
+          value="Send Your Message!"
           type="submit"
           className="px-10 py-4 rounded-md shadow-lg bg-background border 
         border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none

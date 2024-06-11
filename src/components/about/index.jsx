@@ -8,38 +8,58 @@ const AboutDetails = () => {
       <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
         <ItemLayout
           className={
-            "col-span-full lg:col-span-8 row-span-2 flex-col items-start"
+            "col-span-full lg:col-span-12 row-span-2 flex-col items-start"
           }
         >
           <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Hellooooo 👋
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            Ever since we got our first PC at home to share with my sisters,
+            I've had a passion for IT. I was about 9 or 10 years old at the
+            time, and the arrival of an IT company that delivered and left us
+            with some card boxes sparked my interest in the field. We had no
+            idea what to do with them at the time, but that's where my journey
+            began, with a Windows 3.11. Over the years, I've had many adventures
+            and misadventures in IT, which I may detail sometime in the future.
+            Fast forward to 2020, I decided to get back into coding and
+            development, and enrolled in an e-learning platform called Udemy. I
+            attended some trainings from Andrei Neagoie and his team at Zero to
+            Mastery, and I found that coding and being able to produce something
+            from scratch is a passion and a therapy after intense days at work.
+            Since then, I have been learning and working with different tools,
+            languages, and frameworks.
           </p>
+        </ItemLayout>
+        <ItemLayout
+          className={
+            "col-span-full lg:col-span-6 row-span-2 flex-col items-start !p-0"
+          }
+        >
+          <img
+            className="w-full h-auto"
+            src="https://api.daily.dev/devcards/v2/ewX1kkRa7UKJVTt0rUT8Z.png?type=wide&r=qqp"
+            width="652"
+            alt="Alberto Ferreira's Dev Card"
+            loading="lazy"
+          />
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+          className={"col-span-full xs:col-span-6 lg:col-span-6 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+          <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
             25+
-            <sub className="font-semibold text-base">clients</sub>
+            <sub className="font-semibold text-base">
+              Repositories on GitHub
+            </sub>
           </p>
         </ItemLayout>
 
         <ItemLayout
-          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+          className={"col-span-full xs:col-span-6 lg:col-span-6 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+          <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
             4+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
