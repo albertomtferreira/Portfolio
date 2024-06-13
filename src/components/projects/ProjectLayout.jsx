@@ -17,7 +17,7 @@ function ProjectLayout({ name, description, date, demoLink, repository, id }) {
     >
       <div className="flex flex-col gap-6 xs:gap-2">
         <h2 className="text-foregorund text-center xs:text-left">
-          ({id}) {name}
+          {name}
         </h2>
 
         <p className="text-muted text-center ">{description}</p>

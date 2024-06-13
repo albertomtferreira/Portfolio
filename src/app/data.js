@@ -17,7 +17,14 @@ Websites:
 */
 
 export const projectsData = [
-  {
+  {  
+  id: 9,
+  name: "Banking app",
+  description:"Modern banking platform built with NextJS. Platform uses Plaid, appwrite, ChartJS, Tailwind and Shadcn and Sentry!",
+  date: "2024/06/10",
+  demoLink: "https://albertomtferreira.github.io/banking/",
+  repository: "https://github.com/albertomtferreira/banking"
+  },{
     id: 1,
     name: "Portfolio",
     description: "New Portflofio Page",
@@ -81,14 +88,7 @@ export const projectsData = [
     demoLink: "https://albertomtferreira.github.io/reactjs-projects/",
     repository: "https://github.com/albertomtferreira/reactjs-projects"
   },
-  // {
-  //   id: 9,
-  //   name: "",
-  //   description: "",
-  //   date: "",
-  //   demoLink: "",
-  //   repository: ""
-  // },
+
   // {
   //   id: 10,
   //   name: "",
