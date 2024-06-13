@@ -16,9 +16,7 @@ function ProjectLayout({ name, description, date, demoLink, repository, id }) {
       className="text-sm md:text-base w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
     >
       <div className="flex flex-col gap-6 xs:gap-2">
-        <h2 className="text-foregorund text-center xs:text-left">
-          {name}
-        </h2>
+        <h2 className="text-foregorund text-center xs:text-left">{name}</h2>
 
         <p className="text-muted text-center ">{description}</p>
         <div className="flex items-center justify-center gap-6 xs:gap-2">
@@ -30,13 +28,10 @@ function ProjectLayout({ name, description, date, demoLink, repository, id }) {
             aria-label={"Repository"}
             name={"Repository"}
           >
-            <span className="relative w-14 h-14 p-4 hover:text-accent">
+            <span className="relative flex flex-row justify-center items-center w-14 h-14 p-4 hover:text-accent">
               <Github className="w-full h-auto" strokeWidth={1.5} />
               <span className="peer bg-trasnparent absolute top-0 left-0 w-full h-full" />
-              <span
-                className="absolute hidden peer-hover:block px-2 py-1 right-full mx-2 top-1/2 -translate-y-1/2 bg-background
-        text-foreground text-sm rounded-md shadow-lg whitespace-nowrap"
-              >
+              <span className="absolute top-full hidden peer-hover:block px-2 py-1 mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-muted text-sm rounded-md shadow-lg whitespace-nowrap">
                 Repository
               </span>
             </span>
@@ -46,18 +41,14 @@ function ProjectLayout({ name, description, date, demoLink, repository, id }) {
             variants={item}
             href={demoLink}
             target={"_blank"}
-            className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg w-fit self-start z-50"
+            className="text-foreground  rounded-full flex items-center justify-center custom-bg w-fit self-start z-50"
             aria-label={"Link"}
             name={"Link"}
           >
-            <span className="relative w-14 h-14 p-4 hover:text-accent">
+            <span className="relative flex flex-row justify-center items-center w-14 h-14 p-4 hover:text-accent">
               <Globe className="w-full h-auto" strokeWidth={1.5} />
               <span className="peer bg-trasnparent absolute top-0 left-0 w-full h-full" />
-              <span
-                className="absolute hidden peer-hover:block px-2 py-1 left-full mx-2 top-1/2 -translate-y-1/2 bg-background
-        text-foreground text-sm rounded-md shadow-lg whitespace-nowrap"
-              >
+              <span className="absolute top-full hidden peer-hover:block px-2 py-1 mx-2 top-1/2 -translate-y-1/2 bg-background text-foreground text-muted text-sm rounded-md shadow-lg whitespace-nowrap">
                 Link
               </span>
             </span>
