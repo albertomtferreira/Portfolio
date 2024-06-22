@@ -22,7 +22,7 @@ export const projectsData = [
   name: "Banking app",
   description:"Modern banking platform built with NextJS. Platform uses Plaid, appwrite, ChartJS, Tailwind and Shadcn and Sentry!",
   date: "2024/06/10",
-  demoLink: "https://albertomtferreira.github.io/banking/",
+  demoLink: "https://banking-delta-flax.vercel.app/",
   repository: "https://github.com/albertomtferreira/banking"
   },{
     id: 1,
