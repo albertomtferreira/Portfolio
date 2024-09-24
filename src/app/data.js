@@ -18,6 +18,22 @@ Websites:
 
 export const projectsData = [
   {  
+    id: 11,
+    name: "ToDo Smart",
+    description:"AI Todoist Clone Modern banking platform built with NextJS. Platform uses Next.js, Convex & TypeScript and Shadcn",
+    date: "2024/09/11",
+    demoLink: "https://github.com/albertomtferreira/todosmart",
+    repository: "https://github.com/albertomtferreira/todosmart"
+    },
+  {  
+    id: 10,
+    name: "Zoom Clone",
+    description:"Clone of Zoom platform built with NextJS. Followed from JS Mastery. Platform uses Next.js 14, Stream, and Tailwind CSS and Shadcn",
+    date: "2024/09/07",
+    demoLink: "https://jsm-zoom-clone-pi.vercel.app/",
+    repository: "https://github.com/albertomtferreira/jsm_zoom_clone"
+    },
+  {  
   id: 9,
   name: "Banking app",
   description:"Modern banking platform built with NextJS. Platform uses Plaid, appwrite, ChartJS, Tailwind and Shadcn and Sentry!",
