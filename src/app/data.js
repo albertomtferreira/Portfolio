@@ -18,6 +18,14 @@ Websites:
 
 export const projectsData = [
   {  
+    id: 12,
+    name: "Event Wave",
+    description:"EventWave is the ultimate platform for event management and ticketing. Create, manage, and promote your events with ease. Platform uses Next.js, Convex & TypeScript and Shadcn",
+    date: "2024/09/25",
+    demoLink: "https://eventwave-dusky.vercel.app/",
+    repository: "https://github.com/albertomtferreira/eventwave"
+    },
+  {  
     id: 11,
     name: "ToDo Smart",
     description:"AI Todoist Clone Modern banking platform built with NextJS. Platform uses Next.js, Convex & TypeScript and Shadcn",
