@@ -30,7 +30,7 @@ export const projectsData = [
     name: "ToDo Smart",
     description:"AI Todoist Clone Modern banking platform built with NextJS. Platform uses Next.js, Convex & TypeScript and Shadcn",
     date: "2024/09/11",
-    demoLink: "https://github.com/albertomtferreira/todosmart",
+    demoLink: "https://todosmart-eight.vercel.app/",
     repository: "https://github.com/albertomtferreira/todosmart"
     },
   {  
