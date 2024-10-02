@@ -21,8 +21,8 @@ export const projectsData = [
     id: 13,
     name: "InvenTrack Pro",
     description:
-      "EventWave is the ultimate platform for event management and ticketing. Create, manage, and promote your events with ease. Platform uses Next.js, Convex & TypeScript and Shadcn",
-    date: "2024/10/02",
+      "Streamline your organsation's IT asset management with our intuitive, powerful, and secure inventory tracking solution.. Platform uses Next.js, TypeScript and Shadcn, Clerk, MongoDB and Stripe",
+    date: "2024/10/01",
     demoLink: "https://inventrack-pro.vercel.app/",
     repository: "https://github.com/albertomtferreira/inventrack_pro",
   },
