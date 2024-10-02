@@ -22,7 +22,7 @@ export const projectsData = [
     name: "InvenTrack Pro",
     description:
       "Streamline your organsation's IT asset management with our intuitive, powerful, and secure inventory tracking solution.. Platform uses Next.js, TypeScript and Shadcn, Clerk, MongoDB and Stripe",
-    date: "2024/10/02",
+    date: "2024/10/01",
     demoLink: "https://inventrack-pro.vercel.app/",
     repository: "https://github.com/albertomtferreira/inventrack_pro",
   },
