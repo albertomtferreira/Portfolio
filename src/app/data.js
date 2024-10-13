@@ -32,8 +32,8 @@ export const projectsData = [
     description:
       "EventWave is the ultimate platform for event management and ticketing. Create, manage, and promote your events with ease. Platform uses Next.js, Convex & TypeScript and Shadcn",
     date: "2024/09/25",
-    demoLink: "https://eventwave-dusky.vercel.app/",
-    repository: "https://github.com/albertomtferreira/eventwave",
+    demoLink: "https://eventwave-new.vercel.app/",
+    repository: "https://github.com/albertomtferreira/eventwave-new",
   },
   {
     id: 11,
